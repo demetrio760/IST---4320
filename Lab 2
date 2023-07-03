@@ -1,0 +1,85 @@
+QUESTION 1:
+Create a for loop that will iterate over the string named superLongWord and print each letter in its value.
+
+superLongWord = "supercalifragilisticexpialidocious"
+#Enter code below this line
+for element in superLongWord:
+    print(element, end=' ')
+print("\n")
+
+QUESTION 2:
+Create a for loop that will iterate over the string named superLongNumber and print each number in its value.
+
+superLongNumber = "01203445957932123239212084566101"
+#Enter code below this line
+for element in superLongNumber:
+    print(element, end=' ')
+print("\n")
+
+QUESTION 3:
+create an array that contains the two variables above.
+
+superLongWord = "supercalifragilisticexpialidocious"
+superLongNumber = "01203445957932123239212084566101"
+strings = [superLongWord, superLongNumber]
+print(strings)
+
+QUESTION 4:
+Get the length of the array and create a while loop that will iterate over the elements of the array.
+
+superLongWord = "supercalifragilisticexpialidocious"
+superLongNumber = "01203445957932123239212084566101"
+strings = [superLongWord, superLongNumber]
+x = len(strings)
+while x >= 2:
+    print(strings)
+
+QUESTION 5:
+Create an infinite loop of the array.
+
+strings = ["supercalifragilisticexpialidocious", "01203445957932123239212084566101"]
+
+while True:
+    for element in strings:
+        print(element)
+
+QUESTION 6:
+Create a loop that will increment the variable n until it reaches a value of 25.
+
+n = 0
+
+while n <= 25:
+    print(n)
+    n += 1
+
+QUESTION 7:
+Create a loop that adds on letters to the variable named alaphabet until all letters of the alphabet have been added.
+
+alphabet = ''
+for letter in range(ord('a'), ord('z')+1):
+    alphabet += chr(letter)
+print(alphabet)
+
+QUESTION 8:
+Create a loop that adds on numbers to the variable named twentyNums until all numbers 0-20 have been added.
+
+twentyNums = []
+
+for i in range(21):
+    twentyNums.append(i)
+
+print(twentyNums)
+
+QUESTION 9:
+Print the 20th letter in the variable alphabet.
+
+def print_20th_letter():
+    alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+    print(alphabet[19])
+
+QUESTION 10:
+Print the 13th number in the variable twentyNums.
+
+def print_13th_number():
+    twentyNums = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
+    print(twentyNums[12])
